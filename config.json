@@ -1,0 +1,66 @@
+{
+    "MESSAGES" : {
+        "COMMAND_PREFIX" : "$",
+        "DELETE_AFTER_SEC" : 30,
+        "STARTUP" : "Bot started.",
+        "HELP" : "```$help - list commands\n$check <netid> - returns college assignment if available\n$members - return csv of server usernames and nicknames\n$repo - sends link to GitHub repository\n$match <hall name> <room number> - matches you with your roommates if they exist\n#res-college-updates - checking if college assignments are available\n#who-wants-to-chat - polling if people want to talk on vc at 5pm```",
+        "VC_POLL_HR" : 17,
+        "VC_POLL_COUNT" : 5,
+        "VERIFY_EMAIL" : "Hello <@{0}>! Please type in your Princeton email to gain access to the server.",
+        "EMAIL_VALIDATED" : "<@{0}> Please enter the verification code that we sent to your email.",
+        "EMAIL_INVALID" : "<@{0}> Invalid email (are you C/O 2025?). Please enter your email again.",
+        "VERIFIED" : "<@{0}> You have been verified! Welcome to Princecord!",
+        "NOT_VERIFIED" : "<@{0}> The code you entered was invalid. Please start again by entering your email.",
+        "VC_POLL_QUESTION" : "Who wants to call or go on VC tonight? React with a check!",
+        "VC_POLL_SUCCESS" : "There is a VC chat planned tonight with at least {} people. Feel free to join!",
+        "WELCOME" : "Hello <@{0}>! Go to {1.mention} to get started and add roles in {2.mention} so we can get to know you better! Add your concentration in {3.mention} to access concentration-specific channels! Make sure to introduce yourself in {4.mention} and add a pin on our map to {5.mention}! If you have any questions, ask them in {6.mention}!",
+        "WELCOME2" : "Hello <@{0}>! To get started with Discord, complete these beginning tasks:\n\n—Go to {1.mention} and add roles by clicking on the emojis that apply to you. These roles will unlock channels of interest to you, such as specific residential college channels!\n—Go to {2.mention} and choose the concentration you plan to pursue. Adding concentrations here will unlock special channels where you can talk to those pursuing the same concentration.\n—Introduce yourself in {3.mention} so we can get to know you!\n—Add a pin to the Princeton ’25 locations map in {4.mention} to find other Tigers near you!\n\nIf you have any questions about Discord, ask them in {5.mention}. We’re glad to have you here!"
+    },
+    "CHANNELS" : {
+        "RES_COLLEGE_UPDATES" : 851601598643175444,
+        "VC_POLL" : 855115735511334914,
+        "GENERAL" : 783827832635129878,
+        "WELCOME_AND_INFO" : 783823718655983690,
+        "ROLE_WITH_IT" : 783832524748488715,
+        "CONCENTRATIONS" : 854120722644992040,
+        "INTRODUCTIONS" : 783843346858377267,
+        "WHERE_ARE_YOU" : 829782990544175145,
+        "GENIUS_BAR" : 829896622288535562,
+        "ROOMMATE_FINDER" : 858139221565636648,
+        "ANNOUNCEMENTS" : 784506301005955123,
+        "VERIFICATION" : 861006993170628618,
+        "COUNTDOWN" : 871082915407220756,
+        "ROMA_MENU" : 876921135122481242,
+        "WUCOX_MENU" : 876921215783174174,
+        "FORBES_MENU" : 876921319155978270,
+        "WHITMAN_MENU" : 876921403646025728,
+        "GRAD_MENU" : 876921459040219136,
+        "BUTLER_TRS" : 884978004063846410,
+        "FIRST_TRS" : 884978049500717108,
+        "FORBES_TRS" : 884977973206331412,
+        "MATHEY_TRS" : 884977906563035166,
+        "ROCKEFELLER_TRS" : 884977869992914995,
+        "WHITMAN_TRS" : 884978104014094357
+    },
+    "INTENTS" : {
+        "VALUE" : 32511
+    },
+    "INTERVALS" : {
+        "CHECK_RESCO_MIN" : 60.0,
+        "TIME_MONITOR_MIN" : 1.0,
+        "REACTION_CHECK_MIN" : 1.0,
+        "REACTION_CHECK_HRS" : 6.0,
+        "COUNTDOWN_MIN" : 10.0
+    },
+    "RESCO" : {
+        "SUCCESS"  : "<@708443768763973713> College assignments are available! Use the $check <netid> command to get your assignment!",
+        "FAILURE"  : "Residential college assignments have not been released through Advanced People Search.",
+        "COLLEGES" : ["Butler", "First", "Forbes", "Mathey", "Rockefeller", "Whitman"],
+        "KEYWORD" : "College",
+        "URL_TEMPLATE" : "https://www.princeton.edu/search/people-advanced?i={}&if=eq",
+        "GET_COLLEGE_ERROR" : "An error occured with getting your college.",
+        "RESCO_NA" : "Your residential college assignment has not been released through Advanced People Search.",
+        "HALLS" : ["scully", "yoseloff", "bogle", "class-of-1976", "class-of-1915", "class-of-1967", "emma-bloomberg", "wilf", "forbes", "blair", "campbell", "edwards", "hamilton", "joline", "little", "buyers", "holder", "witherspoon", "class-of-1981", "wendell-b", "wendell-c", "fisher", "hargadon", "lauritzen", "baker-e", "baker-s", "murley-pivirotto", "class-of-1927", "class-of-1937", "class-of-1938", "class-of-1939", "dodge-osborn", "feinberg", "gauss", "walker", "wilcox"]
+    },
+    "UTILS" : {}
+}

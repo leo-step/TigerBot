@@ -1,0 +1,4 @@
+__pycache__/
+.vscode/
+members.csv
+test_config.json

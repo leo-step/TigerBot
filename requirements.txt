@@ -1,0 +1,7 @@
+discord
+pandas
+requests
+beautifulsoup4
+lxml
+pytz
+mysql-connector-python
